@@ -2,10 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <section
-      id="#skills"
-      className="bg-[#2A343D] px-12 md:px-20 lg:px-36 py-16"
-    >
+    <section id="skills" className="bg-[#2A343D] px-12 md:px-20 lg:px-36 py-16">
       <h1 className="text-white font-bold text-4xl mb-8">Skills</h1>
       <div className=" grid grid-cols-5 bg-gray-200 mb-8">
         <div className="col-span-5 grid grid-cols-3 md:grid-cols-4 gap-8 place-content-center place-items-center border-grad py-8 px-4">

@@ -23,7 +23,10 @@ const Hero = ({ isMobile, isOpen, setIsOpen }) => {
             <a className="text-white text-xl font-bold" href="#projects">
               Projects
             </a>
-            <a className="text-white text-xl font-bold" href="">
+            <a
+              className="text-white text-xl font-bold"
+              href="https://docs.google.com/document/d/1AViWPEVoNdE7b-rzt1GwOy4nQCyADd2nvkMtul-VSpQ/edit?usp=sharing"
+            >
               Resume
             </a>
             <a className="text-white text-xl font-bold" href="#contact">
@@ -43,14 +46,18 @@ const Hero = ({ isMobile, isOpen, setIsOpen }) => {
               Web Developer
             </h1>
             <p className="text-md md:text-lg text-gray-200 mt-4">
-              My name is Michael Bergerson. I am a full stack web developer with
-              a passion for learning. I specialize React, JavaScript Typescript,
+              My name is Michael Bergerson, I am a full stack web developer with
+              a passion for learning. I graduated from Oregon State University
+              with a BS in Economics. I specialize JavaScript Typescript, React,
               Node, GraphQL, and D3. I also have some experience in data science
-              using Python and Pandas. Take a look at my work and get in touch
+              using Python and Pandas. Take a look at my work and get in touch.
             </p>
-            <button className="bg-[#F02B2B] font-bold text-white px-4 py-2 md:px-8 md:py-4 mt-8 md:mb-0 md:mt-8 text-xl place-self-center">
+            <a
+              href="#projects"
+              className="bg-[#F02B2B] font-bold text-white px-4 py-2 md:px-8 md:py-4 mt-8 md:mb-0 md:mt-8 text-xl place-self-center"
+            >
               View Projects
-            </button>
+            </a>
           </div>
           <div className="col-span-full md:col-span-2  grid grid-cols-10 content-end md:place-self-center">
             <div className="grid grid col-start-5 col-end-7  md:mb-0 place-content-center md:col-span-full place-self-center">

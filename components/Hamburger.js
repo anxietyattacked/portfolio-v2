@@ -92,32 +92,33 @@ const Hamburger = ({ isOpen, setIsOpen }) => {
                   <h1 className="font-varela text-2xl text-center text-white mb-3">
                     Bergerson
                   </h1>
-
-                  <a
-                    href="#skills"
-                    className="font-varela text-3xl md:text-3xl lg:text-4xl text-white lg:ml-4 md:ml-1"
-                  >
-                    Skills
-                  </a>
-                  <a
-                    href="#projects"
-                    className="font-varela text-3xl md:text-3xl lg:text-4xl text-white lg:ml-4 md:ml-1"
-                  >
-                    Projects
-                  </a>
-                  <a
-                    href="/data/MichaelBergerson-Resume.pdf"
-                    className="font-varela text-3xl md:text-3xl lg:text-4xl text-white lg:ml-4 md:ml-1"
-                  >
-                    Resume
-                  </a>
-                  <a
-                    href="#contact"
-                    className="font-varela text-3xl md:text-3xl lg:text-4xl text-white lg:ml-4 md:ml-1"
-                  >
-                    Contact
-                  </a>
-                  <div className="flex mt-4 lg:ml-2 md:mt-4 lg:mt-5">
+                  <div className="flex flex-col mt-4 ml-8 mb-4">
+                    <a
+                      href="#skills"
+                      className="font-bold text-3xl md:text-3xl lg:text-4xl text-white lg:ml-4 md:ml-1"
+                    >
+                      Skills
+                    </a>
+                    <a
+                      href="#projects"
+                      className="font-bold text-3xl md:text-3xl lg:text-4xl text-white lg:ml-4 md:ml-1"
+                    >
+                      Projects
+                    </a>
+                    <a
+                      href="https://docs.google.com/document/d/1AViWPEVoNdE7b-rzt1GwOy4nQCyADd2nvkMtul-VSpQ/edit?usp=sharing"
+                      className="font-bold text-3xl md:text-3xl lg:text-4xl text-white lg:ml-4 md:ml-1"
+                    >
+                      Resume
+                    </a>
+                    <a
+                      href="#contact"
+                      className="font-bold text-3xl md:text-3xl lg:text-4xl text-white lg:ml-4 md:ml-1"
+                    >
+                      Contact
+                    </a>
+                  </div>
+                  <div className="flex justify-center mt-4 lg:ml-2 md:mt-4 lg:mt-5">
                     <a href="https://www.linkedin.com/in/michaelbergerson/">
                       <span
                         className="iconify mr-3 md:mr-2 lg:mr-2  text-3xl md:text-2xl lg:text-4xl text-white"
