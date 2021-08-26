@@ -2,7 +2,7 @@ export const projectData = [
   {
     name: "Spotify Clone with Music Visualizer",
     image: "/images/spotify.png",
-    info: "I built a Spotify clone with in with a music visualizer in Nextjs, Typescript and Three.js. It features a fully functioning  audio player in which you can play, pause, skip, seek, and adjust volume. The music visualizer was built in Three.js and will rotate, pulse and change color to the average frequency of the song.",
+    info: "I built a Spotify clone with in with a music visualizer in Nextjs, Typescript and Three.js. It features a fully functioning  audio player in which you can play, pause, skip, seek, and adjust volume. The music visualizer was built in Three.js and will rotate, pulse and change color to the average frequency of the song. It also features a reusable playlist page",
     tech: "TypeScript, Nextjs, Three.js",
     ghLink: "https://github.com/anxietyattacked/spotify-clone",
     Link: "https://spotify-clone-beryl.vercel.app/",
@@ -10,7 +10,7 @@ export const projectData = [
     iHeight: 902,
   },
   {
-    name: "SneakerFlex",
+    name: "Full Stack Ecommerce Sneaker Store",
     image: "/images/SneakerFlex.png",
     info: "SneakerFlex is a full stack sneaker ecommerce website built in Nextjs and Node using TypeScript for both the backend and frontend The backend uses postrgesql for a database, graphql and typeorm for the API. Users can register, login, create, update and delete comments and create orders using Stripe as a payment handler. ",
     tech: "TypeScript, Nextjs, Urql, Tailwind, Formik",
@@ -21,7 +21,7 @@ export const projectData = [
     iHeight: 880,
   },
   {
-    name: "HoopyDo",
+    name: "NBA Stats and Shot Chart Visualizer",
     image: "/images/HoopyDo.png",
     info: "HoopyDo is an NBA statistics and shot chart explorer built in React, Tailwind, and D3. The data is from nba_api and I used Pythons’ Pandas library to manipulate the data. Users can select a player and see their season totals, shot charts and stats by game.",
     tech: "React, D3, Tailwind, React Table, data from nba_api, Python, Pandas",
@@ -31,7 +31,7 @@ export const projectData = [
     iHeight: 927,
   },
   {
-    name: "Markalytics",
+    name: "Marketing and Analytics Company Website and Blog",
     image: "/images/Markalytics.png",
     info: "Markalytics is a website and blog for a marketing and analytics company built in React. It features a video background for desktops, hamburger menu for mobile, a working contact form, and a paginated blog with articles.",
     tech: "React",
