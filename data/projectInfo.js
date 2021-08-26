@@ -31,7 +31,7 @@ export const projectData = [
     iHeight: 927,
   },
   {
-    name: "Marketing and Analytics Company <br>Website and Blog</br>",
+    name: "Marketing and Analytics Company Website and Blog",
     image: "/images/Markalytics.png",
     info: "Markalytics is a website and blog for a marketing and analytics company built in React. It features a video background for desktops, hamburger menu for mobile, a working contact form, and a paginated blog with articles.",
     tech: "React",
