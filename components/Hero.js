@@ -34,7 +34,7 @@ const Hero = ({ isMobile, isOpen, setIsOpen }) => {
             </a>
           </nav>
         )}
-        <div className="grid grid-cols-5 px-12 md:px-20 lg:px-36 gap-y-10 md:gap-y-0">
+        <div className="grid grid-cols-5 px-4 sm:px-16 md:px-20 lg:px-36 gap-y-2 md:gap-y-0">
           <div className="mb-8 md:mb-0 col-span-full md:col-span-3 grid mt-10">
             <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold mt-4 md:mt-10">
               Hi, I am Michael,
@@ -45,7 +45,7 @@ const Hero = ({ isMobile, isOpen, setIsOpen }) => {
             <h1 className="text-grad text-white text-3xl sm:text-4xl  md:text-5xl font-bold underline">
               Web Developer
             </h1>
-            <p className="text-md md:text-lg text-gray-200 mt-4">
+            <p className="text-sm md:text-lg text-gray-200 mt-4">
               My name is Michael Bergerson, I am a full stack web developer with
               a passion for learning. I graduated from Oregon State University
               with a BS in Economics. I specialize JavaScript Typescript, React,

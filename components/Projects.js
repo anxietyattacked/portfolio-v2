@@ -14,7 +14,7 @@ const Projects = () => {
           key={project.name}
           className="grid md:grid-cols-5 justify-center mb-8"
         >
-          <h2 className="font-bold text-3xl mb-2 md:col-span-5">
+          <h2 className="font-bold text-2xl mb-2 md:col-span-5">
             {project.name}
           </h2>
           <div className="col-span-1 md:col-span-5 lg:col-span-2 mb-4 lg:mb-0">
