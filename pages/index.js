@@ -90,6 +90,7 @@ export default function Home() {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
       </Head>
       <Hero isMobile={isMobile} isOpen={isOpen} setIsOpen={setIsOpen} />
