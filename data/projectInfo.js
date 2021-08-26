@@ -2,7 +2,7 @@ export const projectData = [
   {
     name: "Spotify Clone with Music Visualizer",
     image: "/images/spotify.png",
-    info: "I built a Spotify clone with in with a music visualizer in Nextjs, Typescript and Three.js. It features a fully functioning  audio player in which you can play, pause, skip, seek, and adjust volume. The music visualizer was built in Three.js and will rotate, pulse and change color to the average frequency of the song. It also features a reusable playlist page",
+    info: "I built a Spotify clone with in with a music visualizer in Nextjs, Typescript and Three.js. It features a fully functioning  audio player in which you can play, pause, skip, seek, and adjust volume. The music visualizer was built in Three.js and will rotate, pulse and change color to the average frequency of the song. It also features a reusable playlist page.",
     tech: "TypeScript, Nextjs, Three.js",
     ghLink: "https://github.com/anxietyattacked/spotify-clone",
     Link: "https://spotify-clone-beryl.vercel.app/",
@@ -31,7 +31,7 @@ export const projectData = [
     iHeight: 927,
   },
   {
-    name: "Marketing and Analytics Company Website and Blog",
+    name: "Marketing and Analytics Company <br>Website and Blog</br>",
     image: "/images/Markalytics.png",
     info: "Markalytics is a website and blog for a marketing and analytics company built in React. It features a video background for desktops, hamburger menu for mobile, a working contact form, and a paginated blog with articles.",
     tech: "React",
