@@ -108,7 +108,7 @@ const Skills = () => {
         <div className="col-span-full md:col-span-1">
           <h1 className=" text-white text-2xl mb-4 text-center">Langauges</h1>
           <p className="text-gray-100 text-center">
-            TypeScript, JavaScript, CSS, HTML, Python, R, SQL
+            TypeScript, JavaScript, CSS, HTML, Python, R, SQL, Git
           </p>
         </div>
         <div className="col-span-full md:col-span-1">
