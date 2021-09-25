@@ -48,9 +48,10 @@ const Hero = ({ isMobile, isOpen, setIsOpen }) => {
             <p className="text-sm md:text-lg text-gray-200 mt-4">
               My name is Michael Bergerson, I am a full stack web developer with
               a passion for learning. I graduated from Oregon State University
-              with a BS in Economics. I specialize JavaScript Typescript, React,
-              Node, GraphQL, and D3. I also have some experience in data science
-              using Python and Pandas. Take a look at my work and get in touch.
+              with a BS in Economics. I primarily use JavaScript Typescript,
+              React, Node, GraphQL, and D3. I also completed the Google Data
+              Analytics certificate and have experience using Python and R for
+              data science. Take a look at my work and get in touch.
             </p>
             <a
               href="#projects"

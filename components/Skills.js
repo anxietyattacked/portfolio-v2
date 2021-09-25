@@ -108,14 +108,14 @@ const Skills = () => {
         <div className="col-span-full md:col-span-1">
           <h1 className=" text-white text-2xl mb-4 text-center">Langauges</h1>
           <p className="text-gray-100 text-center">
-            TypeScript, JavaScript, CSS, HTML, Python
+            TypeScript, JavaScript, CSS, HTML, Python, R, SQL
           </p>
         </div>
         <div className="col-span-full md:col-span-1">
           <h1 className="text-white text-2xl mb-4 text-center">Technologies</h1>
           <p className="text-gray-100 text-center">
             <strong>Frontend:</strong> React, Next.js, D3.js, Three.js Tailwind
-            CSS, Urql, Pandas
+            CSS, Urql, Pandas, Tidyverse
           </p>
           <p className="text-gray-100 text-center">
             <strong>Backend:</strong> Node, Express, Graphql, TypeOrm,
