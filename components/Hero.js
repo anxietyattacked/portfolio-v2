@@ -46,11 +46,11 @@ const Hero = ({ isMobile, isOpen, setIsOpen }) => {
               Web Developer
             </h1>
             <p className="text-sm md:text-lg text-gray-200 mt-4">
-              I graduated from Oregon State University with a BS in Economics. I
-              primarily use JavaScript Typescript, React, Node, GraphQL, and D3.
-              I also completed the Google Data Analytics certificate and have
-              experience using Python and R for data science. Take a look at my
-              work and get in touch.
+              I graduated from Oregon State University with a Bachelors of
+              Science in Economics. I primarily use JavaScript Typescript,
+              React, Node, GraphQL, and D3.js. I also completed the Google Data
+              Analytics certificate and have experience using Python and R for
+              data science. Take a look at my work and get in touch.
             </p>
             <a
               href="#projects"
