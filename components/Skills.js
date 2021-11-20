@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <section id="skills" className="bg-[#2A343D] px-12 md:px-20 lg:px-36 py-16">
       <h1 className="text-white font-bold text-4xl mb-8">Skills</h1>
-      <div className=" grid grid-cols-5 bg-gray-200 mb-8">
+      {/* <div className=" grid grid-cols-5 bg-gray-200 mb-8">
         <div className="col-span-5 grid grid-cols-3 md:grid-cols-4 gap-8 place-content-center place-items-center border-grad py-8 px-4">
           <div className="">
             <span
@@ -103,8 +103,20 @@ const Skills = () => {
             <p>Postgresql</p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="grid grid-cols-2 gap-y-8">
+        <h1 className="col-span-full text-white text-3xl">Data Analysis</h1>
+        <div className="col-span-full md:col-span-1">
+          <h1 className=" text-white text-2xl mb-4 text-center">Langauges</h1>
+          <p className="text-gray-100 text-center">Python, R, SQL, Git</p>
+        </div>
+        <div className="col-span-full md:col-span-1">
+          <h1 className="text-white text-2xl mb-4 text-center">Technologies</h1>
+          <p className="text-gray-100 text-center">
+            Pandas, Tidyverse, Excel, Plotly, Tableau
+          </p>
+        </div>
+        <h1 className="col-span-full text-white text-3xl">Web Development</h1>
         <div className="col-span-full md:col-span-1">
           <h1 className=" text-white text-2xl mb-4 text-center">Langauges</h1>
           <p className="text-gray-100 text-center">
@@ -115,7 +127,7 @@ const Skills = () => {
           <h1 className="text-white text-2xl mb-4 text-center">Technologies</h1>
           <p className="text-gray-100 text-center">
             <strong>Frontend:</strong> React, Next.js, D3.js, Three.js Tailwind
-            CSS, Urql, Pandas, Tidyverse
+            CSS, Urql
           </p>
           <p className="text-gray-100 text-center">
             <strong>Backend:</strong> Node, Express, Graphql, TypeOrm,

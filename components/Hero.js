@@ -40,17 +40,17 @@ const Hero = ({ isMobile, isOpen, setIsOpen }) => {
               Hi, I am Michael,
             </h1>
             <h1 className="text-grad text-white text-3xl sm:text-4xl  md:text-5xl font-bold underline">
-              Fullstack
+              Data Analyst /
             </h1>
             <h1 className="text-grad text-white text-3xl sm:text-4xl  md:text-5xl font-bold underline">
-              Web Developer
+              Full Stack Developer
             </h1>
             <p className="text-sm md:text-lg text-gray-200 mt-4">
               I graduated from Oregon State University with a Bachelors of
-              Science in Economics. I primarily use JavaScript Typescript,
-              React, Node, GraphQL, and D3.js. I also completed the Google Data
-              Analytics certificate and have experience using Python and R for
-              data science. Take a look at my work and get in touch.
+              Science in Economics. For data analysis I use Python, R, SQL,
+              Pandas, Tidyverse, Excel, Plotly, Tableau. For web development I
+              primarily use JavaScript TypeScript, React, Node, GraphQL, and
+              D3.js. Take a look at my work and get in touch.
             </p>
             <a
               href="#projects"
