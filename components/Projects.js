@@ -10,7 +10,15 @@ const Projects = () => {
       className="bg-gray-200 grid gap-3 px-8 md:px-20 lg:px-36 py-8"
     >
       <h1 className="font-bold text-4xl mb-5">Projects</h1>
-      <h2 className="font-bold text-3xl mb-5">Data Analytics</h2>
+      <div className="flex">
+        <span
+          className="iconify text-4xl mr-2"
+          data-icon="carbon:text-link-analysis"
+          data-inline="false"
+        ></span>
+        <h2 className="font-bold text-3xl mb-5">Data Analytics</h2>
+      </div>
+
       {dataProject.map((project) => (
         <div
           key={project.name}
@@ -44,7 +52,15 @@ const Projects = () => {
           </div>
         </div>
       ))}
-      <h2 className="font-bold text-3xl mb-5">Web Development</h2>
+      <div className="flex">
+        <span
+          className="iconify text-4xl mr-2"
+          data-icon="ri:computer-line"
+          data-inline="false"
+        ></span>
+        <h2 className="font-bold text-3xl mb-5">Web Development</h2>
+      </div>
+
       {projectData.map((project) => (
         <div
           key={project.name}
