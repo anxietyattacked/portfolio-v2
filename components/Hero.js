@@ -47,10 +47,14 @@ const Hero = ({ isMobile, isOpen, setIsOpen }) => {
             </h1>
             <p className="text-sm md:text-lg text-gray-200 mt-4">
               I graduated from Oregon State University with a Bachelors of
-              Science in Economics. For data analysis I use Python, R, SQL,
-              Pandas, Tidyverse, Excel, Plotly, Tableau. For web development I
-              primarily use JavaScript TypeScript, React, Node, GraphQL, and
-              D3.js. Take a look at my work and get in touch.
+              Science in Economics. After college I started learning Python for
+              data analysis. After learning the basics of programing, I wanted
+              to learn d3.js and web development. So I learned JavaScript,
+              React, CSS, HTML and started building projects. My portfolio is at
+              michaelbergerson.com. For data analysis I frequently use Python,
+              R, SQL, Tableau, Excel, Pandas, Tidyverse, and Plotly. For web
+              development I frequently JavaScript TypeScript, React, CSS, HTML,
+              Node, GraphQL, and D3.js.
             </p>
             <a
               href="#projects"
