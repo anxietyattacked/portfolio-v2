@@ -23,12 +23,12 @@ const Hero = ({ isMobile, isOpen, setIsOpen }) => {
             <a className="text-white text-xl font-bold" href="#projects">
               Projects
             </a>
-            <a
+            {/* <a
               className="text-white text-xl font-bold"
               href="https://docs.google.com/document/d/1AViWPEVoNdE7b-rzt1GwOy4nQCyADd2nvkMtul-VSpQ/edit?usp=sharing"
             >
               Resume
-            </a>
+            </a> */}
             <a className="text-white text-xl font-bold" href="#contact">
               Contact
             </a>

@@ -105,12 +105,12 @@ const Hamburger = ({ isOpen, setIsOpen }) => {
                     >
                       Projects
                     </a>
-                    <a
+                    {/* <a
                       href="https://docs.google.com/document/d/1AViWPEVoNdE7b-rzt1GwOy4nQCyADd2nvkMtul-VSpQ/edit?usp=sharing"
                       className="font-bold text-3xl md:text-3xl lg:text-4xl text-white lg:ml-4 md:ml-1"
                     >
                       Resume
-                    </a>
+                    </a> */}
                     <a
                       href="#contact"
                       className="font-bold text-3xl md:text-3xl lg:text-4xl text-white lg:ml-4 md:ml-1"
