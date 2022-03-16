@@ -68,12 +68,12 @@ const Hamburger = ({ isOpen, setIsOpen }) => {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div className="absolute left-0 top-0 right-0 inline-block w-7/12 h-screen overflow-hidden text-left transition-all transform bg-[#2A343D] shadow-xl">
+              <div className="absolute left-0 top-0 right-0 inline-block w-7/12 h-screen overflow-hidden text-left transition-all transform bg-[#2e2e2e] shadow-xl">
                 <div className="grid place-content-end">
                   <button
                     aria-label="close menu"
                     type="button"
-                    className="inline-flex justify-end px-4 py-2  font-bold text-white bg-[#2A343D] border border-transparent focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
+                    className="inline-flex justify-end px-4 py-2  font-bold text-white bg-[#2e2e2e] border border-transparent focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
                     onClick={() => {
                       closeModal();
                     }}
@@ -87,12 +87,16 @@ const Hamburger = ({ isOpen, setIsOpen }) => {
                 </div>
                 <nav className="flex flex-col md:fixed md:overscroll-x-none md:h-full w-full md:w-1/6 z-10 px-4 md:bg-black">
                   <h1 className="mt-4 font-varela text-2xl text-center text-white">
-                    Michael
+                    Michael Bergerson
                   </h1>
-                  <h1 className="font-varela text-2xl text-center text-white mb-3">
-                    Bergerson
-                  </h1>
+
                   <div className="flex flex-col mt-4 ml-8 mb-4">
+                    <a
+                      href="#about"
+                      className="font-bold text-3xl md:text-3xl lg:text-4xl text-white lg:ml-4 md:ml-1"
+                    >
+                      About
+                    </a>
                     <a
                       href="#skills"
                       className="font-bold text-3xl md:text-3xl lg:text-4xl text-white lg:ml-4 md:ml-1"
@@ -105,12 +109,6 @@ const Hamburger = ({ isOpen, setIsOpen }) => {
                     >
                       Projects
                     </a>
-                    {/* <a
-                      href="https://docs.google.com/document/d/1AViWPEVoNdE7b-rzt1GwOy4nQCyADd2nvkMtul-VSpQ/edit?usp=sharing"
-                      className="font-bold text-3xl md:text-3xl lg:text-4xl text-white lg:ml-4 md:ml-1"
-                    >
-                      Resume
-                    </a> */}
                     <a
                       href="#contact"
                       className="font-bold text-3xl md:text-3xl lg:text-4xl text-white lg:ml-4 md:ml-1"

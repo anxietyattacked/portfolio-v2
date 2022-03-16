@@ -5,6 +5,7 @@ import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import useWindowDimensions from "../utils/useWindowDimensions";
 import { useState } from "react";
+import { About } from "../components/About";
 
 export default function Home() {
   const window = useWindowDimensions();
@@ -94,6 +95,7 @@ export default function Home() {
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
       </Head>
       <Hero isMobile={isMobile} isOpen={isOpen} setIsOpen={setIsOpen} />
+      <About />
       <Skills />
       <Projects />
       <Contact />
