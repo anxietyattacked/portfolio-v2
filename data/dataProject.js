@@ -1,5 +1,21 @@
 export const dataProject = [
   {
+    name: "King County House Sales 1999-2021 Dashboard in Tableau",
+    image: "/images/King County House Sales 1999-2021.png",
+    info: "Used Pandas to add columns to the dataset of King County house sales. Utilized location data to plot home sales on a map of Washington State. Housing sales data is selectable by year and varies  in color and size based off sale price and square footage. Summarized common metrics like average price per year using charts",
+    Link: "https://public.tableau.com/app/profile/michael.bergerson/viz/KingCountyHouseSales1999-2021/Dashboard1",
+    iWidth: 1920,
+    iHeight: 820,
+  },
+  {
+    name: "Hotel Demand Exploratory Data Analysis In Python",
+    image: "/images/Hotel Booking Demand EDA.png",
+    info: "Used a dataset containing reservations for a city hotel and a resort hotel. Cleaned the data by replacing missing values and fixing datetime columns. Analyzed the data using Pandas. Visualized the data using Seaborn. Summarized the finding and made recommendation based of the findings",
+    Link: "https://www.kaggle.com/code/michaelbergerson/hotel-booking-demand-eda",
+    iWidth: 1920,
+    iHeight: 892,
+  },
+  {
     name: "Tableau NBA Player Shot Chart Dashboards",
     image: "/images/NBA Shot Charts.png",
     info: "I utilized Python and Jupyter notebooks to download data from nba_api and converted the data to csv. I built a make/miss shot chart using shot location data. I made density map to show the frequency of shots. I developed a hex map shot chart to compare the players field goal percentage to the leagues average. I then created interactive dashboards that switches between players",
