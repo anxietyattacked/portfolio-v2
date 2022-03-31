@@ -11,6 +11,16 @@ export const projectData = [
     iHeight: 880,
   },
   {
+    name: "Stock Charts and News App in React and Plotly.js",
+    image: "/images/stock-viz-app.png",
+    info: "Utilized APIs to fetch and display stock and news data. Implemented a stock symbol search bar. Visualized stock data using Plotly.js. Customized Material UI components.Styled with CSS",
+    tech: "Javascript, React, Material Ui, React Router, Ploly.js",
+    ghLink: "https://github.com/anxietyattacked/StockVizApp",
+    Link: "https://stock-viz-app.vercel.app/",
+    iWidth: 1920,
+    iHeight: 892,
+  },
+  {
     name: "Spotify Clone with Music Visualizer",
     image: "/images/spotify.png",
     info: "Built a Spotify clone with in with a music visualizer in Nextjs, Typescript and Three.js. It features a fully functioning  audio player in which you can play, pause, skip, seek, and adjust volume. The music visualizer was built in Three.js and will rotate, pulse and change color to the average frequency of the song. It also features a reusable playlist page.",
